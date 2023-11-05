@@ -1,5 +1,9 @@
 # Curso de Git
 
+<p align="center">
+<img src="Logotipo.png" width="500ppx">
+</p>
+
 Git es un sistema de control de versiones muy utilizado que permite gestionar el historial de cambios en proyectos de software. A continuación, te proporciono una lista de algunos comandos de Git y una breve descripción de para qué sirve cada uno. Ten en cuenta que Git tiene muchos comandos y opciones, por lo que esta lista es solo una introducción:
 
 1. `git init`: Inicia un nuevo repositorio Git en un directorio vacío o existente.
@@ -40,7 +44,7 @@ Estos son algunos de los comandos más comunes de Git, pero hay muchos otros com
 
 <br>
 
-### Configuración Básica
+### Configuración de Usuarios
 
 Configurar Nombre que salen en los commits
 ```ssh
@@ -50,14 +54,10 @@ Configurar Email
 ```ssh	
 	git config --global user.email usuario@gmail.com
 ```
-Marco de colores para los comando
-```ssh
-	git config --global color.ui true
-```
 
 <br>
 
-### Iniciando repositorio
+### Iniciar repositorio y subir a Github
 
 Iniciamos GIT en la carpeta donde esta el proyecto
 ```ssh
